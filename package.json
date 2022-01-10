@@ -1,0 +1,28 @@
+{
+  "name": "oxabs-error-pages",
+  "version": "1.0.0",
+  "description": "Messages to be displayed by Heroku if the app is offline",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "npx tailwindcss -i ./input.css -o ./app.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OxfordAbstracts/oxabs-error-pages.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OxfordAbstracts/oxabs-error-pages/issues"
+  },
+  "homepage": "https://github.com/OxfordAbstracts/oxabs-error-pages#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.12"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.4.0",
+    "@tailwindcss/line-clamp": "^0.3.0",
+    "@tailwindcss/typography": "^0.5.0"
+  }
+}
